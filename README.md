@@ -6,11 +6,11 @@ Simple *expect* script that accepts a list of hosts from a csv file, access a ne
 
 ## Why
 
-I needed to ping various locations from once from one site wher we didn't have any servers that could do the job.
+I needed to ping various locations from once from one site where we didn't have any servers that could do the job.
 
 ## How
 
-The script takes to arguments. The firt one is the IP address of the device it should access, and the second is the csv file with the list of hosts it shoud ping.
+The script takes two arguments. The first one is the IP address of the device it should access, and the second is the csv file with the list of hosts it should ping.
 
 `./pinger.sh 10.1.1.1 hosts.csv`
 
