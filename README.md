@@ -2,7 +2,7 @@
 
 ## What
 
-Simple *expect* script that accepts a list of hosts from a csv file, access a network device (Cisco), ping each host from the device and generates a semi-raw log file.
+Simple **expect** script that accepts a list of hosts from a csv file, access a network device (Cisco), ping each host from the device and generates a semi-raw log file.
 
 ## Why
 
@@ -16,5 +16,10 @@ The script takes two arguments. The first one is the IP address of the device it
 
 The script will prompt for the username and password and password it should use.
 
-`hosts.csv` is an example of csv file the script expects
-`20141027133023.log` is an example of the log file the script generates
+After the script finishes you can run `parser.rb` to parse the log file and generate a csv.
+
+`**hosts.csv**` is an example of csv file the script expects.
+
+`**20141027133023.log**` is an example of the log file the script generates.
+
+`**csv-20141027133023.log.csv**` is an example of the resulting csv file after running `parser.rb`.
