@@ -18,8 +18,8 @@ The script will prompt for the username and password and password it should use.
 
 After the script finishes you can run `parser.rb` to parse the log file and generate a csv.
 
-`**hosts.csv**` is an example of csv file the script expects.
+**hosts.csv** is an example of csv file the script expects.
 
-`**20141027133023.log**` is an example of the log file the script generates.
+**20141027133023.log** is an example of the log file the script generates.
 
-`**csv-20141027133023.log.csv**` is an example of the resulting csv file after running `parser.rb`.
+**csv-20141027133023.log.csv** is an example of the resulting csv file after running `parser.rb`.
